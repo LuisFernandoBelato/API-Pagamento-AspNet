@@ -1,0 +1,6 @@
+@Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO_HostAddress = http://localhost:5177
+
+GET {{Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

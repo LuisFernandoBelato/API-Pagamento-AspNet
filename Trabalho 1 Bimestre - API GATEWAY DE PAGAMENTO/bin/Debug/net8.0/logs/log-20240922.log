@@ -1,0 +1,15 @@
+2024-09-22 13:17:14.069 -03:00 [ERR] Erro Consultar a Situacao da Transacao - ID: 2	Impossível Confirmar - Transação já Cancelada
+System.Exception: Impossível Confirmar - Transação já Cancelada
+   at Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Services.PagamentoService.ConfirmarPagamento(Int32 id) in D:\Trabalho 1 Bimestre  API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Services\PagamentoService.cs:line 136
+2024-09-22 15:12:02.487 -03:00 [ERR] Erro Consultar a Situacao da Transacao - ID: 2
+System.InvalidCastException: Unable to cast object of type 'System.Int16' to type 'Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Domain.Situacao'.
+   at Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Services.PagamentoService.ConsultaSituacaoPagamento(Int32 id) in D:\Trabalho 1 Bimestre  API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Services\PagamentoService.cs:line 88
+2024-09-22 15:18:42.656 -03:00 [ERR] Erro Consultar a Situacao da Transacao - ID: 3	Impossível Cancelar - Transação já Confirmada
+System.Exception: Impossível Cancelar - Transação já Confirmada
+   at Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Services.PagamentoService.CancelarPagamento(Int32 id) in D:\Trabalho 1 Bimestre  API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Services\PagamentoService.cs:line 184
+2024-09-22 16:01:03.988 -03:00 [ERR] Erro Consultar a Situacao da Transacao - ID: 8	Impossível Confirmar - Transação já Cancelada
+System.Exception: Impossível Confirmar - Transação já Cancelada
+   at Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Services.PagamentoService.ConfirmarPagamento(Int32 id) in D:\Trabalho 1 Bimestre  API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Services\PagamentoService.cs:line 137
+2024-09-22 16:01:10.515 -03:00 [ERR] Erro Consultar a Situacao da Transacao - ID: 7	Impossível Cancelar - Transação já Confirmada
+System.Exception: Impossível Cancelar - Transação já Confirmada
+   at Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Services.PagamentoService.CancelarPagamento(Int32 id) in D:\Trabalho 1 Bimestre  API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Services\PagamentoService.cs:line 184

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO</name>
+    </assembly>
+    <members>
+        <member name="T:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.CartoesController">
+            <summary>
+            Rotas - Cartões
+            </summary>
+        </member>
+        <member name="M:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.CartoesController.ObterBandeira(System.String)">
+            <summary>
+            Retorna qual é a bandeira do cartão pelo número
+            </summary>
+            <param name="cartao">Nº. Cartão</param>
+        </member>
+        <member name="M:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.CartoesController.ValidaCartao(System.String)">
+            <summary>
+            Retorna se o cartão é válido pelo número
+            </summary>
+            <param name="cartao">Nº. Cartão</param>
+        </member>
+        <member name="T:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.PagamentosController">
+            <summary>
+            Rotas - Pagamentos
+            </summary>
+        </member>
+        <member name="M:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.PagamentosController.CalculaParcelas(Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.ViewModel.PagamentoViewModel)">
+            <summary>
+            Calcula o valor das parcelas de um pagamento com base no valor total
+            </summary>
+            <param name="pagto">pagamento</param>
+        </member>
+        <member name="M:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.PagamentosController.Pagamentos">
+            <summary>
+            Gera o pagamento
+            </summary>
+            <param name="pagto">pagamento</param>
+        </member>
+        <member name="M:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.PagamentosController.SituacaoPagamento(System.Nullable{System.Int32})">
+            <summary>
+            Retorna a situação de um pagamento
+            </summary>
+            <param name="id">UUID</param>
+        </member>
+        <member name="M:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.PagamentosController.ConfirmarPagamento(System.Nullable{System.Int32})">
+            <summary>
+            Altera a situação do pagamento para "Confirmado"
+            </summary>
+            <param name="id">UUID</param>
+        </member>
+        <member name="M:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.PagamentosController.CancelarPagamento(System.Nullable{System.Int32})">
+            <summary>
+            Altera a situação do pagamento para "Cancelado"
+            </summary>
+            <param name="id">UUID</param>
+        </member>
+    </members>
+</doc>

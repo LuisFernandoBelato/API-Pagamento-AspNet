@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO.props" />
+</Project>

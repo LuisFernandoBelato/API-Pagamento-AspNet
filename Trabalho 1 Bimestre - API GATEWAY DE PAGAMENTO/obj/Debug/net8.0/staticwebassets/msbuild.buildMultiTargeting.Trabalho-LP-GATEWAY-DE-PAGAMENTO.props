@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Trabalho-LP-GATEWAY-DE-PAGAMENTO.props" />
+</Project>

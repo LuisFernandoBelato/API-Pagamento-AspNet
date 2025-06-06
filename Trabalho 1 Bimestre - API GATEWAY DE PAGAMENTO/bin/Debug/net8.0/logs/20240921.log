@@ -1,0 +1,35 @@
+2024-09-21 20:51:37.088 -03:00 [ERR] Erro Consultar a Situacao da Transacao - ID: 2	Parameter '@id' has already been defined.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Parameter '@id' has already been defined.
+   at MySql.Data.MySqlClient.MySqlParameterCollection.InternalAdd(MySqlParameter value, Nullable`1 index)
+   at MySql.Data.MySqlClient.MySqlParameterCollection.Add(MySqlParameter value)
+   at MySql.Data.MySqlClient.MySqlParameterCollection.AddWithValue(String parameterName, Object value)
+   at Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Services.PagamentoService.ConfirmarPagamento(Int32 id) in D:\Trabalho 1 Bimestre  API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Services\PagamentoService.cs:line 128
+2024-09-21 20:53:06.281 -03:00 [ERR] Erro Consultar a Situacao da Transacao - ID: 2	There is already an open DataReader associated with this Connection which must be closed first.
+MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQueryAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Services.PagamentoService.ConfirmarPagamento(Int32 id) in D:\Trabalho 1 Bimestre  API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Services\PagamentoService.cs:line 131
+2024-09-21 20:54:29.633 -03:00 [ERR] Erro Consultar a Situacao da Transacao - ID: 2	There is already an open DataReader associated with this Connection which must be closed first.
+MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQueryAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Services.PagamentoService.ConfirmarPagamento(Int32 id) in D:\Trabalho 1 Bimestre  API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Services\PagamentoService.cs:line 131
+2024-09-21 21:04:23.257 -03:00 [ERR] Erro Consultar a Situacao da Transacao - ID: 2	Transação já Cancelada
+System.Exception: Transação já Cancelada
+   at Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Services.PagamentoService.ConfirmarPagamento(Int32 id) in D:\Trabalho 1 Bimestre  API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Services\PagamentoService.cs:line 136
+2024-09-21 22:11:40.262 -03:00 [ERR] Erro Consultar a Situacao da Transacao - ID: 2	Transação já Cancelada
+System.Exception: Transação já Cancelada
+   at Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Services.PagamentoService.ConfirmarPagamento(Int32 id) in D:\Trabalho 1 Bimestre  API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Services\PagamentoService.cs:line 136
+2024-09-21 22:12:24.414 -03:00 [ERR] Erro Consultar a Situacao da Transacao - ID: 3	Transação já Confirmada
+System.Exception: Transação já Confirmada
+   at Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Services.PagamentoService.CancelarPagamento(Int32 id) in D:\Trabalho 1 Bimestre  API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Trabalho 1 Bimestre - API GATEWAY DE PAGAMENTO\Services\PagamentoService.cs:line 184

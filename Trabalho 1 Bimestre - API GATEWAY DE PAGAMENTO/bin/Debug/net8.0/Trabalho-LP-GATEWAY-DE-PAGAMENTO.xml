@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Trabalho-LP-GATEWAY-DE-PAGAMENTO</name>
+    </assembly>
+    <members>
+        <member name="T:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.CartoesController">
+            <summary>
+            Rotas - Cartões
+            </summary>
+        </member>
+        <member name="M:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.CartoesController.ObterBandeira(System.String)">
+            <summary>
+            Retorna qual é a bandeira do cartão pelo número
+            </summary>
+            <param name="cartao">Nº. Cartão</param>
+        </member>
+        <member name="M:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.CartoesController.ValidaCartao(System.String)">
+            <summary>
+            Retorna se o cartão é válido pelo número
+            </summary>
+            <param name="cartao">Nº. Cartão</param>
+        </member>
+        <member name="T:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.PagamentosController">
+            <summary>
+            Rotas - Pagamentos
+            </summary>
+        </member>
+        <member name="M:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.PagamentosController.CalculaParcelas(Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.ViewModel.CalculodeParcelasViewModel)">
+            <summary>
+            Calcula o valor das parcelas de uma Transação com base no Valor Total, Quantidade de Parcelas e Taxa de Juros
+            </summary>
+            <param name="pagto">Transação</param>
+        </member>
+        <member name="M:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.PagamentosController.Pagamentos(Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.ViewModel.PagamentoViewModel)">
+            <summary>
+            Gera a Transação conforme os dados repassados no Corpo da Requisição
+            </summary>
+            <param name="pagto">Transação</param>
+        </member>
+        <member name="M:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.PagamentosController.SituacaoPagamento(System.Int32)">
+            <summary>
+            Retorna a situação de uma Transação (PENDENTE (1), CONFIRMADO (2) e CANCELADO (3))
+            </summary>
+            <param name="id">ID da Transação</param>
+        </member>
+        <member name="M:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.PagamentosController.ConfirmarPagamento(System.Int32)">
+            <summary>
+            Altera a situação da Transação para "Confirmado"
+            </summary>
+            <param name="id">ID da Transação</param>
+        </member>
+        <member name="M:Trabalho_1_Bimestre___API_GATEWAY_DE_PAGAMENTO.Controllers.PagamentosController.CancelarPagamento(System.Int32)">
+            <summary>
+            Altera a situação da Transação para "Cancelado"
+            </summary>
+            <param name="id">ID da Transação</param>
+        </member>
+    </members>
+</doc>
