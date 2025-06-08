@@ -1,4 +1,4 @@
-# 💳 API Gateway de Pagamento \ 6º Termo - LP1
+# 💳 API Gateway de Pagamento \ ***6º Termo - LP1***
 
 Este projeto implementa uma API Gateway de Pagamento fictícia, desenvolvida em ASP.NET Core 8.0, para gerenciar operações básicas de cartões e transações financeiras.
 
